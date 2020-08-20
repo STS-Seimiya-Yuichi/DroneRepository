@@ -1,0 +1,6 @@
+pipeline:
+
+  gradle-build:
+    image: openjdk
+    commands:
+      - echo "Hello Tom!"
