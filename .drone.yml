@@ -1,6 +1,5 @@
 pipeline:
 
-  gradle-build:
-    image: openjdk
+  hello-exec:
     commands:
       - echo "Hello Tom!"
