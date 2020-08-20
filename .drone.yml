@@ -1,5 +1,15 @@
-pipeline:
+---
+kind: pipeline
+name: default
+steps:
+- name: hello
+  image: alpine:3.8
+  commands:
+  - echo 'Hello Tom!'
 
-  hello-exec:
-    commands:
-      - echo "Hello Tom!"
+  # pipeline:
+
+  # gradle-build:
+  #   image: openjdk
+  #   commands:
+  #     - echo "Hello Tom!"
